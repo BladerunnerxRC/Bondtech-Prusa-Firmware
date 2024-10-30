@@ -69,6 +69,7 @@
 #define MANUAL_Z_HOME_POS 0.2
 
 // Travel limits after homing
+// Increased Y_MAX_POS to 212.5 for max allowable for Y-axis for LGX-Shortcut with plate alignment pins removed on hotplate.
 #define X_MAX_POS 255
 #define X_MIN_POS 0
 #define Y_MAX_POS 212.5
